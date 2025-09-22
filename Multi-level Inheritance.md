@@ -39,10 +39,28 @@ To write a Python program to get the name, age, and ID of a person and display t
 ### PROGRAM
 
 ```
-
+class person():
+    def __init__(self,name,age,id):
+        self.name=name
+        self.age=age
+        self.id=id
+    def display(self):
+        print(name,age,id)
+name=input()
+age=int(input())
+id=int(input())
+obj=person(name,age,id)
+obj.display()
 
 ```
 
 ### OUTPUT
 
+
+srinivas 24 21223456
+
+
 ### RESULT
+
+
+<img width="592" height="187" alt="image" src="https://github.com/user-attachments/assets/6bb58406-7cc2-4adf-bece-33b5d6058b85" />
