@@ -24,9 +24,31 @@ To write a Python code to create a class for a person with a parameterized const
 ### PROGRAM
 
 ```
+class Multiply:
+    def __init__(self,x,y):
+        self.x=x
+        self.y=y
+    def calculate(self):
+        self.total = self.x * self.y
+    def display(self):
+        print('ele 1 = {} '.format(self.x))
+        print('ele 2 = {} '.format(self.y))
+        print('Total  = {} '.format(self.total))
 
+x=int(input())
+y=int(input())
+obj = Multiply(x,y)
+obj.calculate()
+obj.display()
 ```
 
 ### OUTPUT
 
+ele 1 = 5
+ele 2 = 6
+Total  = 30
+
 ### RESULT
+
+
+<img width="426" height="279" alt="image" src="https://github.com/user-attachments/assets/51a1b963-983a-4999-8166-61ec1b5d8697" />
