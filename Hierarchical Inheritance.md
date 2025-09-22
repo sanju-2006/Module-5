@@ -28,13 +28,69 @@ To write a Python program to get the employee and doctor details and display the
 
 ### PROGRAM
 ```
+class Details:
+    def get_common(self):
+        self.id = int(input())
+        self.name = input()
+        self.gender = input()
+
+class Employee(Details):
+    def get_employee(self):
+        self.company = input()
+        self.dept = input()
+
+    def display_employee(self):
+        print("Employee Object")
+        print("Id: ", self.id)
+        print("Name: ", self.name)
+        print("Gender: ", self.gender)
+        print("Company: ", self.company)
+        print("Department: ", self.dept)
+
+class Doctor(Details):
+    def get_doctor(self):
+        self.hospital = input()
+        self.dept = input()
+
+    def display_doctor(self):
+        print("\nDoctor Object")
+        print("Id: ", self.id)
+        print("Name: ", self.name)
+        print("Gender: ", self.gender)
+        print("Hospital: ", self.hospital)
+        print("Department: ", self.dept)
+
+e = Employee()
+e.get_common()
+e.get_employee()
+e.display_employee()
+
+d = Doctor()
+d.get_common()
+d.get_doctor()
+d.display_doctor()
 
 
 ```
 
 ### OUTPUT  
 
-(Output Screenshot)  
+Employee Object
+Id:  1
+Name:  sharma
+Gender:  male
+Company:  Tata
+Department:  pharma
+
+Doctor Object
+Id:  12
+Name:  revathi
+Gender:  female
+Hospital:  aims
+Department:  ENT
 
 
 ### RESULT
+
+
+<img width="562" height="435" alt="image" src="https://github.com/user-attachments/assets/187b4c58-6d58-4ff4-a45a-679557b17b16" />
