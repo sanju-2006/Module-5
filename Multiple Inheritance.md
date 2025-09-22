@@ -4,7 +4,9 @@
 ---
 
 ### AIM  
-To write a Python program to get the name, attendance, and ID of a student and check if they are eligible for the next module using multiple inheritance. If attendance > 80, the student is eligible; otherwise, not eligible.
+Write a Python program to get the name, attendance and Id of a student and check they are eligible for exam using multiple inheritance
+
+Note: attendance >75 eligible student else Not Eligible student
 
 ---
 
@@ -32,13 +34,35 @@ To write a Python program to get the name, attendance, and ID of a student and c
 ### PROGRAM
 
 ```
-
+class sec:
+    def __init__(self):
+        self.name=name
+        self.age=age
+        self.id=id
+class cse(sec):
+    def res(self):
+        print(name)
+        print(age)
+        if(id>80):
+            print("Eligible for Exam")
+        else:
+            print("Not Eligible for Exam")
+name=input()
+age=int(input())
+id=int(input())
+obj=cse()
+obj.res()
 ```
 
 ### OUTPUT
 
+saveetha
+21
+Eligible for Exam
 
 ### RESULT
+
+<img width="606" height="278" alt="image" src="https://github.com/user-attachments/assets/1f5ecf12-a846-4ee0-aa31-5e66346f159a" />
 
 
 
