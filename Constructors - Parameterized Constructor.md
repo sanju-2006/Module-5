@@ -10,6 +10,8 @@ To write a Python code to create a class for a person with a parameterized const
 
 ### ALGORITHM
 
+
+
 1. Begin the program.  
 2. Define a `person` class.  
 3. The `person` class should have a parameterized `__init__` method that accepts two parameters: `name` and `userid`.  
