@@ -39,12 +39,9 @@ del s
 
 ### OUTPUT
 
-Inside Constructor
-Object initialized
-Hello, my name is Emma
-Inside destructor
-Object destroyed
+<img width="549" height="235" alt="image" src="https://github.com/user-attachments/assets/4dabfe64-7ed6-47c6-bca0-c28cd23aa6f5" />
+
 
 ### RESULT
 
-<img width="549" height="235" alt="image" src="https://github.com/user-attachments/assets/4dabfe64-7ed6-47c6-bca0-c28cd23aa6f5" />
+Python class `Student` with a destructor is successfully verified
