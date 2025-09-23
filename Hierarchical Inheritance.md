@@ -75,22 +75,11 @@ d.display_doctor()
 
 ### OUTPUT  
 
-Employee Object
-Id:  1
-Name:  sharma
-Gender:  male
-Company:  Tata
-Department:  pharma
+<img width="562" height="435" alt="image" src="https://github.com/user-attachments/assets/187b4c58-6d58-4ff4-a45a-679557b17b16" />
 
-Doctor Object
-Id:  12
-Name:  revathi
-Gender:  female
-Hospital:  aims
-Department:  ENT
 
 
 ### RESULT
 
+Python program to get the employee and doctor details and display them using hierarchical inheritance. Create a parent (base) class named `Details` and two child (derived) classes named `Employee` and `Doctor` is succesfully verified
 
-<img width="562" height="435" alt="image" src="https://github.com/user-attachments/assets/187b4c58-6d58-4ff4-a45a-679557b17b16" />
