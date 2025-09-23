@@ -57,10 +57,10 @@ obj.display()
 ### OUTPUT
 
 
-srinivas 24 21223456
+<img width="592" height="187" alt="image" src="https://github.com/user-attachments/assets/6bb58406-7cc2-4adf-bece-33b5d6058b85" />
+
 
 
 ### RESULT
 
-
-<img width="592" height="187" alt="image" src="https://github.com/user-attachments/assets/6bb58406-7cc2-4adf-bece-33b5d6058b85" />
+Python program to get the name, age, and ID of a person and display them using multilevel inheritance is successfully verified
