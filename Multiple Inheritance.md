@@ -56,14 +56,12 @@ obj.res()
 
 ### OUTPUT
 
-saveetha
-21
-Eligible for Exam
+<img width="606" height="278" alt="image" src="https://github.com/user-attachments/assets/1f5ecf12-a846-4ee0-aa31-5e66346f159a" />
+
 
 ### RESULT
 
-<img width="606" height="278" alt="image" src="https://github.com/user-attachments/assets/1f5ecf12-a846-4ee0-aa31-5e66346f159a" />
-
+Python program to get the name, attendance and Id of a student and check they are eligible for exam using multiple inheritance is successfully verified
 
 
 
