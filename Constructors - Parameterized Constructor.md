@@ -44,11 +44,9 @@ obj.display()
 
 ### OUTPUT
 
-ele 1 = 5
-ele 2 = 6
-Total  = 30
+<img width="426" height="279" alt="image" src="https://github.com/user-attachments/assets/51a1b963-983a-4999-8166-61ec1b5d8697" />
+
 
 ### RESULT
 
-
-<img width="426" height="279" alt="image" src="https://github.com/user-attachments/assets/51a1b963-983a-4999-8166-61ec1b5d8697" />
+Python code to create a class for a person with a parameterized constructor, which will take the `name` and `userid` of the person as parameters and print the `userid` of the person is successfully verified
